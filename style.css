@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+
+
+body{
+    margin:0;
+    padding:0;
+    background:url('https://source.unsplash.com/collection/190727/1600x900');
+ 
+    background-repeat: no-repeat;;
+    background-size:cover;
+}
+.head{
+    position:absolute;
+    top:0;
+   opacity:0.9;;
+   z-index:3;
+   font-size:30px;
+   left:100;
+   font-family: 'Oswald', sans-serif;
+  
+   
+    
+}
+
+    
+
+.container{
+  width:50vw;
+  height:90vh;
+  border:2px solid black;
+  position:absolute;
+  left: 400;
+  top:50;
+  background-color:lightcyan;
+  background-blend-mode:difference;
+ 
+}
+@media (max-width:1420px){
+    .container{
+left:0;
+font-size: -2em;
+
+    }
+   
+   }
+.container .img{
+    position:absolute;
+    top:90;
+    left:250;
+
+    
+
+}
+.container .img img{
+    width:300px;
+    height:300px;
+    border:4px solid black;
+}
+.container .form{
+    position:absolute;
+    top: 450;
+    left:35;
+    font-size:18.54;
+    text-align: center;
+    width:45vw;
+    font-weight: bold;;
+
+}
+.form input{
+
+    margin-top:20px;
+    border-radius:10px;
+    font-family: 'Oswald', sans-serif;
+    width:200px;
+
+}
+.form #btnsubmit{
+    margin-top:20px;
+    padding:10px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 10px;;
+    background-color:#008CBA;
+    color:white;
+    
+}
+.form #btnsubmit:hover{
+    background-color:black;
+    color:white;
+}
+
+background:url('https://source.unsplash.com/collection/190727/1600x900');
